@@ -3,7 +3,7 @@ print "> "
 floors_number = gets.chomp.to_i
 pyramid = []
 str = ""
-floors_number.times do |floor|
+floors_number.times do
   str += "#"
   pyramid << str
 end
